@@ -1,0 +1,127 @@
+{
+    "editor.codeActionsOnSave": {
+		"source.organizeImports": true,
+		"source.fixAll": true
+	},
+    "eslint.autoFixOnSave": true,
+	"eslint.packageManager": "yarn",
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{
+			"language": "typescript",
+			"autoFix": true
+		},
+		{
+			"language": "typescriptreact",
+			"autoFix": true
+		}
+	],
+    "workbench.colorTheme": "Material Theme Ocean",
+    "workbench.iconTheme": "material-icon-theme",
+    "vim.foldfix": true,
+	"vim.highlightedyank.enable": true,
+	"vim.insertModeKeyBindings": [
+		{
+			"before": [
+				"f",
+				"d"
+			],
+			"after": [
+				"<Esc>"
+			]
+		}
+	],
+	"vim.normalModeKeyBindings": [
+		{
+			"before": [
+				"H"
+			],
+			"after": [
+				"^"
+			]
+		},
+		{
+			"before": [
+				"L"
+			],
+			"after": [
+				"$"
+			]
+		}
+	],
+	"vim.visualModeKeyBindings": [
+		{
+			"before": [
+				"f",
+				"d"
+			],
+			"after": [
+				"<Esc>"
+			]
+		},
+		{
+			"before": [
+				"H"
+			],
+			"after": [
+				"^"
+			]
+		},
+		{
+			"before": [
+				"L"
+			],
+			"after": [
+				"$",
+				"h"
+			]
+		},
+		{
+			"before": [
+				"v",
+				"H"
+			],
+			"after": [
+				"^"
+			]
+		},
+		{
+			"before": [
+				"v",
+				"L"
+			],
+			"after": [
+				"$",
+				"h"
+			]
+		}
+    ],
+    "prettier.disableLanguages": [
+		"js",
+		"jsx",
+		"ts",
+		"tsx"
+    ],
+    "[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"files.insertFinalNewline": true,
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.minikube-path": "/Users/nicholas/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vs-kubernetes.helm-path": "/Users/nicholas/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path": "/Users/nicholas/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"git.autofetch": true,
+	"window.zoomLevel": 0,
+	"typescript.updateImportsOnFileMove.enabled": "always"
+}
